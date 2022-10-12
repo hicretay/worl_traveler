@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		209E62A428F70839005C4B59 /* WordlTravelerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209E62A328F70839005C4B59 /* WordlTravelerApp.swift */; };
+		209E62A628F70839005C4B59 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209E62A528F70839005C4B59 /* ContentView.swift */; };
+		209E62A828F7083A005C4B59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 209E62A728F7083A005C4B59 /* Assets.xcassets */; };
+		209E62AB28F7083A005C4B59 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 209E62AA28F7083A005C4B59 /* Preview Assets.xcassets */; };
+		209E62AD28F7083A005C4B59 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209E62AC28F7083A005C4B59 /* Persistence.swift */; };
+		209E62B028F7083A005C4B59 /* WordlTraveler.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 209E62AE28F7083A005C4B59 /* WordlTraveler.xcdatamodeld */; };
+		209E62BA28F7083A005C4B59 /* WordlTravelerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209E62B928F7083A005C4B59 /* WordlTravelerTests.swift */; };
+		209E62C428F7083A005C4B59 /* WordlTravelerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209E62C328F7083A005C4B59 /* WordlTravelerUITests.swift */; };
+		209E62C628F7083A005C4B59 /* WordlTravelerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209E62C528F7083A005C4B59 /* WordlTravelerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		209E62B628F7083A005C4B59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 209E629828F70839005C4B59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 209E629F28F70839005C4B59;
+			remoteInfo = WordlTraveler;
+		};
+		209E62C028F7083A005C4B59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 209E629828F70839005C4B59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 209E629F28F70839005C4B59;
+			remoteInfo = WordlTraveler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		209E62A028F70839005C4B59 /* WordlTraveler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordlTraveler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		209E62A328F70839005C4B59 /* WordlTravelerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordlTravelerApp.swift; sourceTree = "<group>"; };
+		209E62A528F70839005C4B59 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		209E62A728F7083A005C4B59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		209E62AA28F7083A005C4B59 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		209E62AC28F7083A005C4B59 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		209E62AF28F7083A005C4B59 /* WordlTraveler.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WordlTraveler.xcdatamodel; sourceTree = "<group>"; };
+		209E62B528F7083A005C4B59 /* WordlTravelerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordlTravelerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		209E62B928F7083A005C4B59 /* WordlTravelerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordlTravelerTests.swift; sourceTree = "<group>"; };
+		209E62BF28F7083A005C4B59 /* WordlTravelerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordlTravelerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		209E62C328F7083A005C4B59 /* WordlTravelerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordlTravelerUITests.swift; sourceTree = "<group>"; };
+		209E62C528F7083A005C4B59 /* WordlTravelerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordlTravelerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		209E629D28F70839005C4B59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		209E62B228F7083A005C4B59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		209E62BC28F7083A005C4B59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		209E629728F70839005C4B59 = {
+			isa = PBXGroup;
+			children = (
+				209E62A228F70839005C4B59 /* WordlTraveler */,
+				209E62B828F7083A005C4B59 /* WordlTravelerTests */,
+				209E62C228F7083A005C4B59 /* WordlTravelerUITests */,
+				209E62A128F70839005C4B59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		209E62A128F70839005C4B59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				209E62A028F70839005C4B59 /* WordlTraveler.app */,
+				209E62B528F7083A005C4B59 /* WordlTravelerTests.xctest */,
+				209E62BF28F7083A005C4B59 /* WordlTravelerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		209E62A228F70839005C4B59 /* WordlTraveler */ = {
+			isa = PBXGroup;
+			children = (
+				209E62A328F70839005C4B59 /* WordlTravelerApp.swift */,
+				209E62A528F70839005C4B59 /* ContentView.swift */,
+				209E62A728F7083A005C4B59 /* Assets.xcassets */,
+				209E62AC28F7083A005C4B59 /* Persistence.swift */,
+				209E62AE28F7083A005C4B59 /* WordlTraveler.xcdatamodeld */,
+				209E62A928F7083A005C4B59 /* Preview Content */,
+			);
+			path = WordlTraveler;
+			sourceTree = "<group>";
+		};
+		209E62A928F7083A005C4B59 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				209E62AA28F7083A005C4B59 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		209E62B828F7083A005C4B59 /* WordlTravelerTests */ = {
+			isa = PBXGroup;
+			children = (
+				209E62B928F7083A005C4B59 /* WordlTravelerTests.swift */,
+			);
+			path = WordlTravelerTests;
+			sourceTree = "<group>";
+		};
+		209E62C228F7083A005C4B59 /* WordlTravelerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				209E62C328F7083A005C4B59 /* WordlTravelerUITests.swift */,
+				209E62C528F7083A005C4B59 /* WordlTravelerUITestsLaunchTests.swift */,
+			);
+			path = WordlTravelerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		209E629F28F70839005C4B59 /* WordlTraveler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 209E62C928F7083A005C4B59 /* Build configuration list for PBXNativeTarget "WordlTraveler" */;
+			buildPhases = (
+				209E629C28F70839005C4B59 /* Sources */,
+				209E629D28F70839005C4B59 /* Frameworks */,
+				209E629E28F70839005C4B59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WordlTraveler;
+			productName = WordlTraveler;
+			productReference = 209E62A028F70839005C4B59 /* WordlTraveler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		209E62B428F7083A005C4B59 /* WordlTravelerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 209E62CC28F7083A005C4B59 /* Build configuration list for PBXNativeTarget "WordlTravelerTests" */;
+			buildPhases = (
+				209E62B128F7083A005C4B59 /* Sources */,
+				209E62B228F7083A005C4B59 /* Frameworks */,
+				209E62B328F7083A005C4B59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				209E62B728F7083A005C4B59 /* PBXTargetDependency */,
+			);
+			name = WordlTravelerTests;
+			productName = WordlTravelerTests;
+			productReference = 209E62B528F7083A005C4B59 /* WordlTravelerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		209E62BE28F7083A005C4B59 /* WordlTravelerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 209E62CF28F7083A005C4B59 /* Build configuration list for PBXNativeTarget "WordlTravelerUITests" */;
+			buildPhases = (
+				209E62BB28F7083A005C4B59 /* Sources */,
+				209E62BC28F7083A005C4B59 /* Frameworks */,
+				209E62BD28F7083A005C4B59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				209E62C128F7083A005C4B59 /* PBXTargetDependency */,
+			);
+			name = WordlTravelerUITests;
+			productName = WordlTravelerUITests;
+			productReference = 209E62BF28F7083A005C4B59 /* WordlTravelerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		209E629828F70839005C4B59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					209E629F28F70839005C4B59 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					209E62B428F7083A005C4B59 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 209E629F28F70839005C4B59;
+					};
+					209E62BE28F7083A005C4B59 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 209E629F28F70839005C4B59;
+					};
+				};
+			};
+			buildConfigurationList = 209E629B28F70839005C4B59 /* Build configuration list for PBXProject "WordlTraveler" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 209E629728F70839005C4B59;
+			productRefGroup = 209E62A128F70839005C4B59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				209E629F28F70839005C4B59 /* WordlTraveler */,
+				209E62B428F7083A005C4B59 /* WordlTravelerTests */,
+				209E62BE28F7083A005C4B59 /* WordlTravelerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		209E629E28F70839005C4B59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209E62AB28F7083A005C4B59 /* Preview Assets.xcassets in Resources */,
+				209E62A828F7083A005C4B59 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		209E62B328F7083A005C4B59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		209E62BD28F7083A005C4B59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		209E629C28F70839005C4B59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209E62AD28F7083A005C4B59 /* Persistence.swift in Sources */,
+				209E62A628F70839005C4B59 /* ContentView.swift in Sources */,
+				209E62A428F70839005C4B59 /* WordlTravelerApp.swift in Sources */,
+				209E62B028F7083A005C4B59 /* WordlTraveler.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		209E62B128F7083A005C4B59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209E62BA28F7083A005C4B59 /* WordlTravelerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		209E62BB28F7083A005C4B59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209E62C628F7083A005C4B59 /* WordlTravelerUITestsLaunchTests.swift in Sources */,
+				209E62C428F7083A005C4B59 /* WordlTravelerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		209E62B728F7083A005C4B59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 209E629F28F70839005C4B59 /* WordlTraveler */;
+			targetProxy = 209E62B628F7083A005C4B59 /* PBXContainerItemProxy */;
+		};
+		209E62C128F7083A005C4B59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 209E629F28F70839005C4B59 /* WordlTraveler */;
+			targetProxy = 209E62C028F7083A005C4B59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		209E62C728F7083A005C4B59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		209E62C828F7083A005C4B59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		209E62CA28F7083A005C4B59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WordlTraveler/Preview Content\"";
+				DEVELOPMENT_TEAM = TH3R22Z883;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hicret.wordltraveler.WordlTraveler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		209E62CB28F7083A005C4B59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WordlTraveler/Preview Content\"";
+				DEVELOPMENT_TEAM = TH3R22Z883;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hicret.wordltraveler.WordlTraveler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		209E62CD28F7083A005C4B59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TH3R22Z883;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hicret.wordltraveler.WordlTravelerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordlTraveler.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WordlTraveler";
+			};
+			name = Debug;
+		};
+		209E62CE28F7083A005C4B59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TH3R22Z883;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hicret.wordltraveler.WordlTravelerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordlTraveler.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WordlTraveler";
+			};
+			name = Release;
+		};
+		209E62D028F7083A005C4B59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TH3R22Z883;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hicret.wordltraveler.WordlTravelerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WordlTraveler;
+			};
+			name = Debug;
+		};
+		209E62D128F7083A005C4B59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TH3R22Z883;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hicret.wordltraveler.WordlTravelerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WordlTraveler;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		209E629B28F70839005C4B59 /* Build configuration list for PBXProject "WordlTraveler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				209E62C728F7083A005C4B59 /* Debug */,
+				209E62C828F7083A005C4B59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		209E62C928F7083A005C4B59 /* Build configuration list for PBXNativeTarget "WordlTraveler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				209E62CA28F7083A005C4B59 /* Debug */,
+				209E62CB28F7083A005C4B59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		209E62CC28F7083A005C4B59 /* Build configuration list for PBXNativeTarget "WordlTravelerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				209E62CD28F7083A005C4B59 /* Debug */,
+				209E62CE28F7083A005C4B59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		209E62CF28F7083A005C4B59 /* Build configuration list for PBXNativeTarget "WordlTravelerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				209E62D028F7083A005C4B59 /* Debug */,
+				209E62D128F7083A005C4B59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		209E62AE28F7083A005C4B59 /* WordlTraveler.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				209E62AF28F7083A005C4B59 /* WordlTraveler.xcdatamodel */,
+			);
+			currentVersion = 209E62AF28F7083A005C4B59 /* WordlTraveler.xcdatamodel */;
+			path = WordlTraveler.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 209E629828F70839005C4B59 /* Project object */;
+}
