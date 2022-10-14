@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  WordlTraveler
+
+  Created by Hicret Ay on 14.10.2022.
+  
+*/
+
+"TAB_CONVERSION" = "Conversion";
+
+"TAB_MAP" = "Map";
+
+"CONVERSION_DEGRESS_CELSIUS" = "Degrees Celsius";
+
+"CONVERSION_FAHRENHEIT" = "Fahrenheit";
+
+"CONVERSION_IS_ACTUALLY" = "is actually";
+
+"COVERSION_TEXT_FIELD_PLACEHOLDER" = "value";
+
+"MAP_CITY_ISTANBUL" = "Istanbul";
+
+"MAP_CITY_LONDON" = "London";

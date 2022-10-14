@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  WordlTraveler
+
+  Created by Hicret Ay on 14.10.2022.
+  
+*/
+
+"TAB_CONVERSION" = "Çevirici";
+
+"TAB_MAP" = "Harita";
+
+"CONVERSION_DEGRESS_CELSIUS" = "Derece";
+
+"CONVERSION_FAHRENHEIT" = "Fahrenheit";
+
+"CONVERSION_IS_ACTUALLY" = "aslında";
+
+"COVERSION_TEXT_FIELD_PLACEHOLDER" = "değer";
+
+"MAP_CITY_ISTANBUL" = "İstanbul";
+
+"MAP_CITY_LONDON" = "Londra";
