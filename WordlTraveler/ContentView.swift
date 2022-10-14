@@ -36,14 +36,14 @@ struct ContentView: View {
     
     var body: some View {
         VStack{
-            TextField("value",text: $fahrenheitValue)
+            TextField("COVERSION_TEXT_FIELD_PLACEHOLDER",text: $fahrenheitValue)
                 .font(Font.system(size: 64.0))
                 .multilineTextAlignment(.center)
                 .keyboardType(.decimalPad)
-            Text("fahrenheit")
-            Text("is actually").foregroundColor(.gray)
+            Text("CONVERSION_FAHRENHEIT")
+            Text("CONVERSION_IS_ACTUALLY").foregroundColor(.gray)
             Text(converToCelcius())
-            Text("degress Celcius")
+            Text("CONVERSION_DEGRESS_CELSIUS")
             Spacer() // kalan alanı doldurur
         }.foregroundColor(.orange)
         .font(.title)

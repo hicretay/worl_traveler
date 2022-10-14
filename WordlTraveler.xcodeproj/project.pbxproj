@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		20971EA928F9679300F8BC35 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20971EA828F9679300F8BC35 /* MapView.swift */; };
+		20971EAC28F990D800F8BC35 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20971EAE28F990D800F8BC35 /* Localizable.strings */; };
+		20971EB128F9964400F8BC35 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20971EB328F9964400F8BC35 /* Localizable.strings */; };
+		20971EB628F99AF200F8BC35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20971EB828F99AF200F8BC35 /* InfoPlist.strings */; };
 		209E62A428F70839005C4B59 /* WordlTravelerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209E62A328F70839005C4B59 /* WordlTravelerApp.swift */; };
 		209E62A628F70839005C4B59 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209E62A528F70839005C4B59 /* ContentView.swift */; };
 		209E62A828F7083A005C4B59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 209E62A728F7083A005C4B59 /* Assets.xcassets */; };
@@ -38,6 +41,11 @@
 
 /* Begin PBXFileReference section */
 		20971EA828F9679300F8BC35 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		20971EAD28F990D800F8BC35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		20971EB228F9964400F8BC35 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		20971EB728F99AF200F8BC35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		20971EB928F99AF700F8BC35 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		20971EBA28F99BC200F8BC35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		209E62A028F70839005C4B59 /* WordlTraveler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordlTraveler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		209E62A328F70839005C4B59 /* WordlTravelerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordlTravelerApp.swift; sourceTree = "<group>"; };
 		209E62A528F70839005C4B59 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -80,6 +88,9 @@
 		209E629728F70839005C4B59 = {
 			isa = PBXGroup;
 			children = (
+				20971EB828F99AF200F8BC35 /* InfoPlist.strings */,
+				20971EB328F9964400F8BC35 /* Localizable.strings */,
+				20971EAE28F990D800F8BC35 /* Localizable.strings */,
 				20971EA828F9679300F8BC35 /* MapView.swift */,
 				209E62A228F70839005C4B59 /* WordlTraveler */,
 				209E62B828F7083A005C4B59 /* WordlTravelerTests */,
@@ -101,6 +112,7 @@
 		209E62A228F70839005C4B59 /* WordlTraveler */ = {
 			isa = PBXGroup;
 			children = (
+				20971EBA28F99BC200F8BC35 /* Info.plist */,
 				209E62A328F70839005C4B59 /* WordlTravelerApp.swift */,
 				209E62A528F70839005C4B59 /* ContentView.swift */,
 				209E62A728F7083A005C4B59 /* Assets.xcassets */,
@@ -222,6 +234,7 @@
 			knownRegions = (
 				en,
 				Base,
+				tr,
 			);
 			mainGroup = 209E629728F70839005C4B59;
 			productRefGroup = 209E62A128F70839005C4B59 /* Products */;
@@ -241,7 +254,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				209E62AB28F7083A005C4B59 /* Preview Assets.xcassets in Resources */,
+				20971EB128F9964400F8BC35 /* Localizable.strings in Resources */,
+				20971EAC28F990D800F8BC35 /* Localizable.strings in Resources */,
 				209E62A828F7083A005C4B59 /* Assets.xcassets in Resources */,
+				20971EB628F99AF200F8BC35 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +321,34 @@
 			targetProxy = 209E62C028F7083A005C4B59 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		20971EAE28F990D800F8BC35 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20971EAD28F990D800F8BC35 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		20971EB328F9964400F8BC35 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20971EB228F9964400F8BC35 /* tr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		20971EB828F99AF200F8BC35 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20971EB728F99AF200F8BC35 /* en */,
+				20971EB928F99AF700F8BC35 /* tr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		209E62C728F7083A005C4B59 /* Debug */ = {
@@ -432,6 +476,7 @@
 				DEVELOPMENT_TEAM = TH3R22Z883;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WordlTraveler/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -461,6 +506,7 @@
 				DEVELOPMENT_TEAM = TH3R22Z883;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WordlTraveler/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
