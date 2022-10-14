@@ -13,8 +13,24 @@ struct WordlTravelerApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            TabView{
+                ContentView().tabItem{
+                    HStack{
+                        Image(systemName: "thermometer")
+                        Text("Conversion")
+                        
+                    }
+                }
+                    .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                
+                MapView().tabItem{
+                    HStack{
+                        Image(systemName: "map")
+                        Text("Map")
+                    }
+                }
+            }.accentColor(.yellow)
+            
         }
     }
 }

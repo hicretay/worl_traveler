@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20971EA928F9679300F8BC35 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20971EA828F9679300F8BC35 /* MapView.swift */; };
 		209E62A428F70839005C4B59 /* WordlTravelerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209E62A328F70839005C4B59 /* WordlTravelerApp.swift */; };
 		209E62A628F70839005C4B59 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209E62A528F70839005C4B59 /* ContentView.swift */; };
 		209E62A828F7083A005C4B59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 209E62A728F7083A005C4B59 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20971EA828F9679300F8BC35 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		209E62A028F70839005C4B59 /* WordlTraveler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordlTraveler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		209E62A328F70839005C4B59 /* WordlTravelerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordlTravelerApp.swift; sourceTree = "<group>"; };
 		209E62A528F70839005C4B59 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 		209E629728F70839005C4B59 = {
 			isa = PBXGroup;
 			children = (
+				20971EA828F9679300F8BC35 /* MapView.swift */,
 				209E62A228F70839005C4B59 /* WordlTraveler */,
 				209E62B828F7083A005C4B59 /* WordlTravelerTests */,
 				209E62C228F7083A005C4B59 /* WordlTravelerUITests */,
@@ -265,6 +268,7 @@
 			files = (
 				209E62AD28F7083A005C4B59 /* Persistence.swift in Sources */,
 				209E62A628F70839005C4B59 /* ContentView.swift in Sources */,
+				20971EA928F9679300F8BC35 /* MapView.swift in Sources */,
 				209E62A428F70839005C4B59 /* WordlTravelerApp.swift in Sources */,
 				209E62B028F7083A005C4B59 /* WordlTraveler.xcdatamodeld in Sources */,
 			);
