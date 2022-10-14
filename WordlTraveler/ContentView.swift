@@ -10,8 +10,10 @@ import SwiftUI
 struct ContentView: View {
     @State var fahrenheitValue: String = ""
     
+    @State var isVisible = false
+    
     let numberFormatter: NumberFormatter = {
-       let numberFormatter = NumberFormatter()
+        let numberFormatter = NumberFormatter()
         numberFormatter.numberStyle = .decimal
         numberFormatter.minimumFractionDigits = 0
         numberFormatter.maximumFractionDigits = 2
@@ -46,7 +48,13 @@ struct ContentView: View {
             Text("CONVERSION_DEGRESS_CELSIUS")
             Spacer() // kalan alanı doldurur
         }.foregroundColor(.orange)
-        .font(.title)
+            .font(.title)
+            .opacity(isVisible ? 1.0 : 0.0)
+            .offset(x:0,y: isVisible ? 0 : 20)
+            .animation(.easeIn(duration: 2.0),value: isVisible)
+            .onAppear{
+                self.isVisible = true
+            }
     }
 }
 
